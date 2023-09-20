@@ -52,7 +52,7 @@ const PriceTables = () => {
       <div className="container px-8 mx-auto mb-20">
          <h2 className="text-5xl font-bold text-center uppercase mt-20 mb-4">Our Pricing Plans</h2>
          <p className="text-center font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod doloremque accusamus distinctio <br/>atque optio sit laboriosam nisi error culpa aspernatur.</p>
-         <div className="mt-5 grid grid-cols-3 gap-6">
+         <div className="mt-12 grid grid-cols-3 gap-6">
             {
                gymPricingData.map(priceTable=><PriceTable key={priceTable.id} priceTable={priceTable}></PriceTable>)
             }

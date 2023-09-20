@@ -5,7 +5,7 @@ const PriceTable = ({priceTable}) => {
    const {name,price,icon,features}=priceTable
    return (
       <div>
-         <div className='bg-blue-800 p-6  pb-20 rounded-3xl text-white'>
+         <div className='bg-blue-800 p-8  pb-24 rounded-3xl text-white'>
             <h3 className='text-2xl font-semibold mb-3'>{name}</h3>
             <p className='font-medium text-xl'><span className='text-5xl font-bold'>${price}</span> / month</p>
          </div>
@@ -23,6 +23,5 @@ const PriceTable = ({priceTable}) => {
 };
 PriceTable.propTypes={
    priceTable:PropTypes.object
-
 }
 export default PriceTable;
